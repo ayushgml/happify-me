@@ -1,0 +1,72 @@
+.quizBody {
+  background-color: rgb(243, 243, 247);
+  /* font-weight: bolder; */
+}
+.topDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgb(240, 208, 221) 0%,
+    rgb(182, 214, 236) 100%
+  );
+  padding: 2rem;
+  text-align: center;
+}
+
+.topDiv p {
+  padding: 20px;
+  color: rgb(87, 78, 78);
+}
+.txt {
+  color: rgb(68, 58, 58);
+  padding-top: 15px;
+}
+.para1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+.img {
+  height: 25%;
+  width: 25%;
+  float: left;
+  margin-left: 35px;
+}
+.container {
+  margin: 3rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.category {
+  background-color: rgb(174, 205, 219);
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  width: 250px;
+  height: 200px;
+}
+.logo {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+.heading {
+  margin: auto;
+  padding: 20px 20px;
+  text-align: center;
+  color: rgb(90, 77, 77);
+}
+
+@media screen and (max-width: 720px) {
+  .topDiv {
+    flex-wrap: wrap;
+  }
+}

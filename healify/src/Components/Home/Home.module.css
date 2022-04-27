@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy%20Bubbles");
+
+.remove_underline {
+  text-decoration: none;
+}
+
+.container {
+  background: rgb(255, 255, 255);
+}
+
+.top-container {
+  background: rgb(238, 232, 232);
+  position: relative;
+}
+.maindiv {
+  background: rgb(238, 232, 232);
+  padding-bottom: 10px;
+}
+.bottom-container {
+  background: linear-gradient(to left, #e6b65c, #fdc830);
+  padding: 50px 0 20px;
+  text-align: center;
+}
+.copyright {
+  color: #000000;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.homecard {
+  color: #272727;
+  padding: 20px;
+  align-self: stretch;
+  border-radius: 20px;
+  border: 0px;
+  border-color: rgb(206, 184, 180);
+  border-style: solid;
+  transition: 200ms;
+  min-height: 100%;
+  background: rgb(255, 255, 255);
+}
+.homecard:hover {
+  box-shadow: 0 2px 20px 0 #ccd2d8;
+  animation: translateUp 1s forwards;
+}
+
+.img {
+  position: relative;
+  background: rgb(3, 8, 4);
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.img img {
+  position: relative;
+  width: 75%;
+  opacity: 1;
+}
+
+.quote1 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  animation: move 10s 1;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px rgb(92, 5, 5);
+}
+.quote2 {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  animation: move 10s 1;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px rgb(92, 5, 5);
+}
+.img h4 {
+  max-width: 20%;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(5%);
+    right: 0%;
+    opacity: 0.1;
+  }
+  20%,
+  100% {
+    transform: translateX(7%);
+    right: 10%;
+    opacity: 1;
+  }
+}
+
+.footer-link {
+  padding: 5px;
+}
+
+.mdbCustom {
+  margin-bottom: 0px;
+  display: flex;
+  gap: 80px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  text-align: center;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
+  padding: 40px 40px;
+}
+.mdbCustom div {
+  flex-basis: 275px;
+}
+
+.mdbCustom div a:hover {
+  color: black;
+}
+
+.blur {
+  margin: 10px;
+  flex-direction: row;
+  background-image: url("../../Assets/abstractBg.jpeg"),
+    linear-gradient(rgb(219, 166, 166), rgb(196, 179, 156));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blurImage {
+  margin: 10px;
+  flex-direction: row;
+  background-image: url("../../Assets/homePage.jpg"),
+    linear-gradient(rgb(188, 230, 154), rgb(136, 204, 120));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Oblur {
+  margin: 10px;
+  flex-direction: row;
+  background-image: url("../../Assets/pic2.jpg"),
+    linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.OblurImage {
+  margin: 10px;
+  flex-direction: row;
+  background-image: url("../../Assets/pic2.jpg"),
+    linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video {
+  max-width: 100%;
+  background-color: transparent;
+}
+.topDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  background: rgb(245, 241, 7);
+  background: radial-gradient(
+    circle,
+    rgb(204, 229, 235) 0%,
+    rgb(240, 228, 235) 100%
+  );
+  padding: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.topDiv p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3em;
+  padding: 3%;
+  max-width: 48%;
+  /* font-weight: bolder; */
+  text-align: justify;
+  color: #504f4b;
+}
+
+@media screen and (max-width: 600px) {
+  .img h4 {
+    font-size: 20px;
+  }
+  .img img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .video {
+    max-width: 100%;
+  }
+  .topDiv p {
+    max-width: 100%;
+  }
+}

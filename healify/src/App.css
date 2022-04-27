@@ -1,0 +1,160 @@
+body {
+  overflow-x: scroll;
+}
+input,
+textarea {
+  background-color: #f3e5f5;
+  border-radius: 50px !important;
+  padding: 12px 15px 12px 15px !important;
+  box-sizing: border-box;
+  border: none !important;
+  border: 1px solid #f3e5f5 !important;
+  font-size: 16px !important;
+  color: #000 !important;
+  font-weight: 400;
+}
+
+input:focus,
+textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #d500f9 !important;
+  outline-width: 0;
+  font-weight: 400;
+}
+
+button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+::placeholder {
+  color: rgba(201, 201, 201, 0.781) !important;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #000 !important;
+}
+
+::-ms-input-placeholder {
+  color: #000 !important;
+}
+a {
+  color: #000 !important;
+}
+
+a:hover {
+  color: #000 !important;
+}
+
+.nav-link:hover {
+  /* box-shadow: 2px 2px 7px 2px rgb(95, 18, 18);
+  font-size: 1.2em; */
+  animation: move 5s infinite forwards;
+  animation-timing-function: cubic-bezier();
+  font-weight: bold;
+  color: #000;
+}
+
+.warning {
+  font: bold 1.8em sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(172, 55, 146);
+  text-align: center;
+  text-decoration: rgb(172, 55, 146) underline solid;
+  /* animation: warningFade 3s forwards; */
+}
+
+.round {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 50%;
+}
+
+.round:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(5vh);
+  visibility: hidden;
+  transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+  display: flex;
+  /* max-width: 260px; */
+  flex-wrap: wrap;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+  animation: appear 4s;
+}
+
+.classAlways {
+  opacity: 0;
+  transform: translateX(-7vw);
+  visibility: hidden;
+  transition: opacity 1s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+  width: 48%;
+}
+
+.classAlways.classVisible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+@keyframes move {
+  0% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1, 1, 1);
+  }
+  30%,
+  40% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1.1, 1.1, 1);
+  }
+
+  70% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes appear {
+  0% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1, 1, 1);
+    opacity: 0.7;
+  }
+  30%,
+  40% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1.05, 1.05, 1);
+  }
+
+  50% {
+    opacity: 1;
+  }
+  70% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1.08, 1.08, 1.08);
+  }
+  80% {
+    transform: scale3d(1.08, 1.08, 1.08);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .classAlways {
+    width: 100%;
+  }
+}

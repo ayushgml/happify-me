@@ -1,0 +1,140 @@
+.heading {
+  padding: 15px;
+  text-align: center;
+  color: rgb(107, 105, 105);
+}
+
+/* Overloads to reactStrap */
+
+.sectionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+
+.cardContainer {
+  margin: 10px;
+  padding: 0px 10px;
+
+  width: 22%;
+}
+
+.cardSubContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid rgb(226 215 215);
+}
+
+.imgContainer {
+  position: relative;
+  /* height: 40%; */
+  margin-bottom: auto;
+  display: flex;
+  width: 100%;
+  /* height: auto; */
+}
+
+.cardInfo {
+  padding: 10px;
+  /* margin-top: auto; */
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1 0 auto; */
+  justify-content: flex-end;
+}
+
+.fixedLink {
+  position: fixed;
+  padding: 10px;
+  bottom: 30px;
+  right: 30px;
+  z-index: 10;
+  width: min-content;
+  text-align: center;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+
+  color: white;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 1.2em;
+  /* border: 3px solid burlywood; */
+  box-shadow: 0 0 0 4px white, 0 0 0 8px burlywood;
+}
+
+.fixedLink:hover {
+  animation: scaleUp 2s forwards;
+}
+
+@keyframes scaleUp {
+  0% {
+    backface-visibility: hidden;
+  }
+  50% {
+    background-color: #8bc6ec;
+    background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  }
+  100% {
+    transform: perspective(20px) scale3d(1, 1, 1) translateZ(2px);
+    background-color: #8ec5fc;
+    background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .cardContainer {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .cardContainer {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .cardContainer {
+    width: 90%;
+  }
+
+  .fixedLink {
+    bottom: 5px;
+    right: 5px;
+  }
+}
+
+.cardContainer:hover {
+  animation: move 5s forwards;
+  animation-timing-function: cubic-bezier();
+  /* font-weight: bolder; */
+  color: #000;
+}
+
+.btnScale:hover {
+  animation: rotate 3s forwards;
+  animation-timing-function: cubic-bezier();
+  /* font-weight: bolder; */
+}
+@keyframes move {
+  30% {
+    /* transform: translateX(0px); */
+    transform: scale(1.05);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  30% {
+    /* transform: translateX(0px); */
+    transform: rotate(2deg);
+  }
+
+  60% {
+    transform: rotate(-2deg);
+  }
+}

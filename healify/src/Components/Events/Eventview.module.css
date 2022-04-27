@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+
+.Eventcontainer {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 25px;
+  box-sizing: border-box;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  text-align: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+  background-color: white;
+}
+
+.Eventcontainer > div {
+  width: 100%;
+}
+
+.Eventcontainer3 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: rgb(250, 250, 250);
+  margin: auto;
+  text-align: initial;
+  display: flex;
+}
+.Eventcontainer4 {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  background-color: rgb(250, 250, 250);
+  text-align: initial;
+  display: flex;
+  flex-direction: column;
+}
+.Eventcontainer2 {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 25px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: block;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+}
+.quote1 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: rgb(255, 255, 255);
+}
+.remove_underline {
+  text-decoration: none;
+}
+.remove {
+  text-decoration: none;
+  margin-right: auto;
+}
+.heading {
+  text-align: center;
+  font: 65px "Road Rage";
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.counter {
+  text-align: center;
+  font: 35px "Road Rage";
+
+  margin-top: 20px;
+}
+.EventBody {
+  /* height: 1500px; */
+  background-color: rgb(243, 243, 247);
+}
+
+.Eventtitle {
+  position: relative;
+  background-color: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 1.8em;
+  border-radius: 5px;
+}
+
+.Eventquestion {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.EventquestionBox {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: rgb(250, 250, 250);
+}
+.EventForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.EventForm label {
+  margin-left: 5px;
+}
+.EventanswerBtn {
+  position: relative;
+  padding: 10px;
+  background-color: rgb(250, 151, 37);
+  display: inline-block;
+  margin: 10px;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scoreboard {
+  position: relative;
+  height: 700px;
+}
+
+.score {
+  position: absolute;
+  width: 1024px;
+  font-size: 3em;
+  top: 250px;
+  text-align: center;
+}
+
+.playBtn {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  font-size: 1.4em;
+  padding: 10px;
+  top: 350px;
+  background-color: rgb(46, 182, 46);
+  color: rgb(255, 255, 255);
+  width: 150px;
+  left: 0px;
+  right: 0px;
+  /* margin: 0px auto; */
+  margin-top: auto;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.warning {
+  visibility: hidden;
+  align-self: center;
+  margin: auto;
+  margin-right: 10px;
+  font-size: 1em;
+  font-family: cursive;
+  color: white;
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 1em;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.warningShow {
+  visibility: visible;
+  opacity: 1;
+}
+
+.btnWarningPair {
+  display: flex;
+  margin-left: auto;
+}
+
+.scrollbar {
+  overflow: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px 1px 6px black;
+
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* custom colors  */
+.scrollbar-primary::-webkit-scrollbar {
+  background-color: #f5f5f5;
+}
+.scrollbar-primary {
+  scrollbar-color: #4285f4 #f5f5f5;
+}
+.scrollbar-primary::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px 1px 6px black;
+  background-color: #4285f4;
+}
+
+.img img {
+  width: 100%;
+  /* max-height: 500px; */
+}
+
+.firstSection {
+  width: 100%;
+  display: flex;
+  align-content: stretch;
+  justify-content: stretch;
+}
+
+.firstSection > div {
+  width: 45%;
+}
+
+.nullMargin {
+  margin: 0px;
+}
+
+.announcementSection {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.announcementSection h2 {
+  margin: 0px;
+}
+
+#addAnnBtn {
+  cursor: pointer;
+  margin: 0px;
+  margin-left: auto;
+  justify-self: right;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 700px) {
+  .firstSection {
+    display: block;
+  }
+
+  .firstSection > div {
+    width: 100%;
+  }
+
+  .announcementSection {
+    display: block;
+  }
+}
+
+.hoverAnim:hover {
+  animation: rotate 3s forwards;
+  animation-timing-function: cubic-bezier();
+}
+
+@keyframes rotate {
+  30%,
+  60% {
+    transform: scale(1.1);
+  }
+}

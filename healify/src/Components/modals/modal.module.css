@@ -1,0 +1,60 @@
+.warning {
+  font: bold 1.2em sans-serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(172, 55, 146);
+  text-align: center;
+  text-decoration: rgb(172, 55, 146) underline solid;
+  animation: warningFade 3s forwards;
+}
+
+@keyframes warningFade {
+  0% {
+    opacity: 0.1;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.subtask {
+  font: bold 0.9em arial;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 1px 1px rgb(179, 167, 167);
+  background-color: rgba(231, 184, 82, 0.856);
+  margin: 5px;
+  padding: 5px;
+}
+
+.subtask:hover {
+  text-shadow: none;
+  box-shadow: 10px 0px 1px rgba(0, 0, 0, 0.856);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.heading {
+  text-align: center;
+  background-color: rgba(231, 184, 82, 0.856);
+  animation: appear 2s forwards;
+}
+
+@keyframes appear {
+  0% {
+    width: 0%;
+    color: white;
+  }
+  100% {
+    width: 100%;
+    color: black;
+  }
+}
+
+.font h3 {
+  font-size: 22px !important;
+}

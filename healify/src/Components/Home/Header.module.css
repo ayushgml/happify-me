@@ -1,0 +1,246 @@
+.header {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  min-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e6b65c,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e6b65c,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  position: relative;
+  top: 0px;
+  z-index: 1;
+}
+.remove_underline {
+  text-decoration: none;
+}
+.whiteHeader {
+  position: sticky;
+  top: 0px;
+  background: white;
+  transition: background-color 0.5s;
+}
+
+.whiteHeader div a div h1 {
+  color: black;
+  text-shadow: 0.5px 0.5px 3px rgb(0, 0, 0);
+}
+
+.whiteHeader div a div h1:hover {
+  text-shadow: 1px 1px 6px white;
+}
+
+/* .whiteHeader div a img:hover {
+    text-shadow: 1px 1px 6px rgb(0, 0, 0);
+  } */
+
+.whiteHeader ul li {
+  color: black;
+}
+
+.threeLineBtn {
+  display: none;
+  margin: auto 2px;
+}
+
+.threeLineBtn img {
+  height: 40px;
+  width: 40px;
+}
+.menuBtnCustom {
+  margin: 1px;
+  margin-left: 5px;
+  padding: 3px;
+  list-style: none;
+  background: rgb(255, 255, 255);
+  border-radius: 15%;
+  border: 4px solid #9c6614;
+}
+
+.menuBtnCustom li {
+  border-radius: 5px;
+  margin: 2px;
+  width: 24px;
+  height: 4px;
+  background-image: linear-gradient(168deg, #916e0e 1%, #7e6e13 89%);
+}
+
+.menuBtnCustom:hover {
+  background: rgb(255, 255, 255);
+}
+
+.heading {
+  text-align: center;
+  margin: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  /* stroke: #ffa5d8;
+  stroke-width: 3;
+ 
+  animation: textAnimate 5s infinite alternate; */
+}
+/* @keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(189, 68%, 75%)
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%,0%)
+  }
+} */
+.heading:hover {
+  text-shadow: 1px 1px 6px rgb(14, 14, 13);
+}
+.logo {
+  margin-left: 25px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: rgb(255, 255, 255) solid 3px;
+}
+
+.logo:hover {
+  animation: borderGrow 0.5s 1 forwards;
+}
+
+@keyframes borderGrow {
+  0% {
+    border: rgb(255, 255, 255) solid 3px;
+  }
+  100% {
+    border: rgb(255, 255, 255) solid 5px;
+  }
+}
+
+.settingsList {
+  margin: auto 0px;
+  column-gap: 10px;
+  margin-left: auto;
+  align-items: center;
+}
+.settingsList li {
+  padding: 5px;
+  margin: 1px;
+  color: white;
+  /* box-shadow: 2px 2px 5px black; */
+}
+.navLoginBtn {
+  margin: 2px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.navLoginBtn:hover {
+  /* box-shadow: 2px 2px 7px 2px rgb(95, 18, 18);
+  font-size: 1.2em; */
+  animation: move 5s infinite forwards;
+  animation-timing-function: cubic-bezier();
+  /* font-weight: bold; */
+}
+#navSignUp {
+  border: none;
+  background: white;
+  color: black;
+  padding: 10px;
+}
+#idLoginBtn {
+  padding: 10px;
+}
+
+.titleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 770px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .settingsList {
+    display: none;
+  }
+  .toggleActive {
+    margin: 0px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    animation: growOnce 2s forwards;
+  }
+
+  @keyframes growOnce {
+    0% {
+      opacity: 0.1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .rotate {
+    animation: rotateToggle 1s 1 both;
+  }
+  @keyframes rotateToggle {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+  .rotateReset {
+    animation: rotateReset 1s 1 both;
+  }
+  @keyframes rotateReset {
+    0% {
+      transform: rotate(90deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .threeLineBtn {
+    display: inline;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+  .settingsList li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+}
+
+@keyframes move {
+  0% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1.1, 1.1, 1);
+  }
+
+  60% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1, 1, 1);
+  }
+}

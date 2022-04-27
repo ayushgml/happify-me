@@ -1,0 +1,85 @@
+.model {
+  background-color: rgb(99, 39, 120);
+  display: flex;
+}
+
+.success-message {
+  background-color: #ba68c8;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fontapply {
+  color: red;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ba68c8;
+}
+
+.profile-button {
+  background: rgb(99, 39, 120);
+  box-shadow: none;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.profile-button:hover {
+  background: #682773;
+  animation: move 5s infinite forwards;
+  animation-timing-function: cubic-bezier();
+  font-weight: bold;
+  color: #000;
+}
+
+.profile-button:focus {
+  background: #682773;
+  box-shadow: none;
+}
+
+.profile-button:active {
+  background: #682773;
+  box-shadow: none;
+}
+
+.back:hover {
+  color: #682773;
+  cursor: pointer;
+}
+
+.labels {
+  font-size: 12px;
+  font-weight: bold;
+  /* font-weight: 10; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+}
+
+.add-experience:hover {
+  background: #ba68c8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #ba68c8;
+}
+
+.view {
+  margin: 0px;
+  margin-bottom: 2px;
+}
+
+@keyframes move {
+  0% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1, 1, 1);
+  }
+  30%,
+  40% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1.1, 1.1, 1);
+  }
+
+  70% {
+    /* transform: translateX(0px); */
+    transform: scale3d(1, 1, 1);
+  }
+}

@@ -1,0 +1,98 @@
+      ["How often do you experience headaches?","Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience tense muscles, sore back and neck?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience fatigue?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience anxiety, worry or phobias?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience difficulty falling asleep?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience irritability?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience insomnia?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience bouts of anger/hostility?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience boredom or depression?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you eat too much or too little?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience diarrhea, cramps, gas or constipation?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+      ["How often do you experience restlessness, itching or tics?", "Never", "Once or twice a month","Once a week","2-3 times per week","Almost everyday"]
+    //Physical Health
+      ["How frequently do you moderately exercise?", "Daily", "3-4 times per week", "Once or twice a week", "Once or twice a month", "Seldom"]
+      ["How often do you get a full, restful night of sleep?", "Almost every night", "3-4 times per week", "Once or twice a week", "Once or twice a month", "Seldom"]
+      ["To what extent is your energy sufficient for your work and daily activities?", "To a very great extent", "To a good extent", "To some extent", "To a little extent", "To a very little extent"]
+      ["How closely does your weight approach the ideal level?", "My weight is at the ideal level", "My weight is almost close to the ideal level", "My weight is close to the ideal level", "My weight is not close to the ideal level", "I am dangerously overweight/ underweight"]
+      ["To what extent do you eat a nutritious diet?", "To a very great extent", "To a good extent", "To some extent", "To a little extent", "To a very little extent"]
+      ["Which of the following best describes your use of tobacco?", "In no period of my life have I had the habit of smoking or chewing tobacco", "Early in my life for a short period I smoked or chewed tobacco", "I stopped smoking or chewing tobacco over the past two years", "I smoke or chew tobacco fairly often", "I smoke or chew tobacco almost everyday"]
+      ["Which of the following best describes your use of alcohol?", "I do not abuse alcohol, and never have", "Very occasionally I abuse alcohol", "I have a history of abusing alcohol, but am not presently abusing it", "I abuse alcohol whenever I feel sad or depressed", "I abuse alcohol almost daily"]
+    //Control
+      ["To what extent do you believe that you have a history of coping well with highly stressful " +
+            "situations?", "To a very great extent", "To a good extent", "To some extent", "To a little extent", "To a very little extent"]
+      ["How confident are you of being able to control your emotions in stressful situations?", "I never let my emotions run away me", "I seldom let my emotions run away me", "I sometimes let my emotions run away me", "I often let my emotions run away me", "I cannot control my emotions at all in stressful situations"]
+      ["When things are not going well, how likely are you to view the situation as being temporary " +
+            "rather than permanent?", "Most likely", "Very likely", "Likely", "Unlikely", "Very unlikely"]
+      ["When something bad happens to you, how likely are you to exaggerate its importance?", "Very unlikely", "Unlikely", "Likely", "Very likely", "Most likely"]
+      ["When stressed by a complex situation, how likely are you to focus your attention on those " +
+            "aspects of the situation that you can manage?", "Most likely", "Very likely", "Likely", "Unlikely", "Very unlikely"]
+      ["When highly stressed, how capable are you of changing your thinking to calm down?", "Most capable", "Very capable", "Capable", "Incapable", "Very incapable"]
+      ["To what extent are you aware of practical, healthy ways of relaxing?", "To a very great extent", "To a good extent", "To some extent", "To a little extent", "To a very little extent"]
+      ["How frequently do you pursue some highly relaxing practice?", "Daily or more often", "3-4 times per week", "Once or twice a week", "Once or twice a month", "Seldom"]
+    //Active Coping
+      ["When confronted with a stressful situation, how likely are you to wait passively for events to " +
+            "develop rather than to take charge?", "Very unlikely", "Unlikely", "Likely", "Very likely", "Most likely"]
+      ["Which of the following courses of action are you most likely to take when you have become " +
+            "thoroughly frustrated?", "Identify an alternate goal and pursue it", "Pursue a relaxing activity", "Withdraw and feel sorry for yourself", "Vent your aggression on someone weaker than you", "Shout, threaten and bombard someone with hostile s"]
+      ["If you had worn an article of clothing one day and then found it to be flawed, how likely would " +
+            "you be to return it and ask for a refund?", "Most likely", "Very likely", "Likely", "Unlikely", "Very unlikely"]
+      ["When an unexpected, negative event happens to you, how likely are you to actively seek " +
+            "information about the event and how to cope with it?", "Most likely", "Very likely", "Likely", "Unlikely", "Very unlikely"]
+      ["How much decision-making power so you have in your family?", "More power than any other member of my family", "As much power as any other member of my family", "Less power than some members of my family", "Less power than most members of my family", "Less power than any members of my family"]
+      ["How much decision-making power do you have in your working environment?", "More power than any other member of my work team", "As much power as any other member of my work team", "Less power than some members of my work team", "Less power than most members of my work team", "Less power than any members of my work team"]
+      ["To what extent do you believe that events in your life are merely the result of luck, fate, or " +
+            "chance?",    "To a very little extent","To a little extent","To some extent","To a good extent","To a very great extent"]
+    //Relationships and Belonging
+      ["What is your best guess as to the extent and quality of contact you had with your parent(s) " +
+            "shortly after birth?", "Was given an above average amount of contact by happy parent", "Was given an average amount of contact by happy parent", "Was given an average amount of contact by unhappy (perhaps angry) parent(s)", "Was given a below average amount of contact by unhappy (perhaps angry) parent(s)", "Was given the least amount of contact by unhappy (perhaps angry) parent(s)"]
+      ["During your early childhood, to what extent was your mother both calm and generally " +
+            "permissive?", "To a very great extent", "To a good extent", "To some extent", "To a little extent", "To a very little extent"]
+      ["How easily do you make friends in a strange situation?", "Very easily", "Fairly easily", "Easily", "Uneasily", "Very uneasily"]
+      ["When highly stressed, how likely are you to ask friends or relatives for help? ", "Most likely", "Very likely", "Likely", "Unlikely", "Very unlikely"]
+      ["In comparison with other people, how likely are you to see others as threatening, " +
+            "uncooperative, or exploitative?", "Highly unlikely", "Very unlikely", "Unlikely", "Very likely", "Highly likely"]
+      ["How often are you confused about the intentions of others toward you?", "Very infrequently", "Infrequently", "Frequently", "Very frequently", "Almost always"]
+      ["Rate your satisfaction with your role in some kind of network of friends, relatives, and/or others about whom you care deeply and who reciprocate that commitment to you", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your marital status", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your primary relationships", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+    //Hope and Hopelessness
+      ["How often do you engage in a spiritual practice such as prayer, mediation, or inspirational " +
+            "reading to enrich your interior life?", "Daily or more often", "3-4 times per week", "Once or twice a week", "Once or twice a month", "Seldom"]
+      ["How connected do you feel to your conception of a higher power or to a worthy cause?", "To a very great extent", "To a good extent", "To some extent", "To a little extent", "To a very little extent"]
+      ["To what extent do you believe your life has purpose?", "To a very great extent", "To a good extent", "To some extent", "To a little extent", "To a very little extent"]
+      ["How much contact do you have with what you would consider a spiritual community?", "Very much", "Fairly much", "Not very much", "Little", "Very little"]
+      ["Rate your satisfaction with your spirituality", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+    // Self Perception
+      ["Rate your satisfaction with the choice of your career", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your present job/business/school", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your capacity to have fun", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with the amount of fun experienced in last month ", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your financial prospects", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your current income level", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your level of self-esteem", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with the prospects for having impact on those who know you and possibly others", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your sex life", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your body, how it looks and performs", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your home life", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your life skills and knowledge of issues and facts unrelated to your job or profession", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your stress management capacities", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your nutritional knowledge, attitudes, and choices ", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your ability to recover from disappointment, hurts, setbacks, and tragedies", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your confidence that you currently are, or will in the future be, reasonably close to your highest potential", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your achievement of a rounded or balanced quality in your life", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your sense that life for you is on an upward curve, getting better and fuller all the time", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your level of participation in issues and concerns beyond your immediate interests", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your choice whether to parent or not and with the consequences or results of that choice", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+      ["Rate your satisfaction with your Emotional acceptance of the inescapable reality of aging", "Very happy","Mildly happy", "Mildly disappointed", "Very disappointed", "Completely disappointed"]
+    //Stress and Anxiety
+      ["In the last week, how often have you been upset because of something that happened unexpectedly?","Never","Almost Never","Sometimes","Fairly Often", "Very Often"]
+      ["In the last week, how often have you felt that you were unable to control important things in your life?","Never","Almost Never","Sometimes","Fairly Often", "Very Often"]
+      ["In the last week, how often have you felt nervous and 'stressed'?","Never","Almost Never","Sometimes","Fairly Often", "Very Often"]
+      ["In the last week, how often have you felt confident about your ability to handle your personal problems?","Very Often","Fairly Often","Sometimes","Almost Never", "Never"]
+      ["In the last week, how often have you felt that things were going your way?","Very Often","Fairly Often","Sometimes","Almost Never", "Never"]
+      ["In the last week, how often have you found that you could NOT cope with all the things you had to do?","Never","Almost Never","Sometimes","Fairly Often", "Very Often"]
+      ["In the last week, how often have you been able to control irritations in your life?","Very Often","Fairly Often","Sometimes","Almost Never", "Never"]
+      ["In the last week, how often have you felt that you were on top of things?","Very Often","Fairly Often","Sometimes","Almost Never", "Never"]
+      ["In the last week, how often have you been angered because of things that happened that were out of your control?","Never","Almost Never","Sometimes","Fairly Often", "Very Often"]
+      ["In the last week, how often have you felt difficulties were piling up so high that you could not overcome them?","Never","Almost Never","Sometimes","Fairly Often", "Very Often"]

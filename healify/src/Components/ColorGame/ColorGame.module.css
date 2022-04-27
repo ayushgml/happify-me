@@ -1,0 +1,93 @@
+.maindiv {
+  text-align: center;
+  background-color: #011f3f;
+  min-height: 100vh;
+}
+
+.leveltitle {
+  font-family: "Press Start 2P", Arial;
+  font-size: 3rem;
+  color: #fef2bf;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.gameover {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.animateFade {
+  animation: fadeOnce 0.5s forwards;
+}
+
+@keyframes fadeOnce {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pass {
+  color: white;
+  align-self: center;
+}
+
+.button {
+  background: chocolate;
+  font: bold 25px;
+}
+
+.button:hover {
+  font-size: 30px;
+}
+
+.padding {
+  margin: 10px;
+}
+@media screen and (max-width: 869px) {
+  .btn {
+    height: 120px;
+    width: 120px;
+    margin: 5px;
+  }
+}
