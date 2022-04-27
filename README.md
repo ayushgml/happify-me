@@ -18,15 +18,6 @@ We hope to provide a simple outlet and companion during these hard times, and ho
 
 </p>
 
-### Dependencies
-<p>
-1) Firebase Authentication(Version 20.0.4)<br>
-2) Firebase Database(Version 19.7.0)<br>
-3) Material Design(Version 1.3.0)<br>
-4) Lottie Animations(Version 3.7.0)<br>
-5) Volley Library(Version 1.1.0)<br>
-</p>
-
 ### Problem Solution💡:
 
 ### Mental Health remains a major issue, giving rise to problems like 
@@ -57,4 +48,3 @@ The novel functionalities are:
 - FireBase
 - MongoDB
 - (Lots and Lots of) JavaScript
-
