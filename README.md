@@ -1,7 +1,7 @@
 # Happify Me
-### Team Members👨🏻‍💻:
-1. [Rishi Kaushal](https://github.com/sagefell29)
-2. [Ayush Gupta](https://github.com/ayushgml)
+### Contributors👨🏻‍💻:
+1. [Ayush Gupta](https://github.com/ayushgml)
+2. [Rishi Kaushal](https://github.com/sagefell29) 
 3. [Suhasini Srivastava](https://github.com/suhasinisrivastava)
 4. [Triparna Poddar](https://github.com/prasoonsoni)
 5. [Ansh Goel](https://github.com/Diablo-bit)
